@@ -1,0 +1,29 @@
+<html>
+    <head>
+        Calculator Page
+    </head>
+    <body>
+        <div>
+        <form id="calcform" action="/calculate" method="post">
+            <div>
+            <label for="fnum">First number:</label>
+            <input type="text" id="fnum" name="fnum" value={{fnum}}></input><br>
+            <br>
+            <label for="snum">Second number:</label>
+            <input type="text" id="snum" name="snum" value={{snum}}></input><br>
+            </div>
+            <br>
+            <div>
+            <label for="res">result:</label>
+            <span id="res" name="res">{{result}}</input><br>
+            </div>
+            <div>
+            <input type="submit" name="addBtn" value="Addition">
+            <input type="submit"  name="subBtn" value="Substraction">
+            <input type="submit" name="multiBtn" value="Multiplication">
+            <input type="submit" name="divBtn" value="Division"><br>
+            </div>
+            </form>
+        </div>
+        <body>
+    </html>
